@@ -1,0 +1,36 @@
+<p>day works!</p>
+<h1>{{name}}</h1>
+
+<!-- pip -->
+
+<h1>{{name|uppercase}}</h1>
+<h2>{{name|lowercase}}</h2>
+<h3>{{name|titlecase}}</h3>
+
+<!-- string -->
+
+<!-- slicing -->
+<h1>{{msg}}</h1>
+<h1>{{msg|slice:2:6}}</h1>
+<h1>{{msg|slice:10:12}}</h1>
+<h1>{{msg|slice:-1}}</h1>
+
+<!-- dictionary -->
+<h2>{{person}}</h2>
+<h2>{{person|json}}</h2>
+
+<!-- number -->
+<h1>{{0.25}}</h1>
+<h2>{{0.25|percent}}</h2>
+<h2>{{356|currency}}</h2>
+<h2>{{566.25|currency:'INR'}}</h2>
+
+<!-- date -->
+<h1>{{d}}</h1>
+<h2>{{d|date:'short'}}</h2>
+<h2>{{d|date:'shortDate'}}</h2>
+<h2>{{d|date:'mediumDate'}}</h2>
+<h3>{{d|date:'longDate'}}</h3>
+<h2>{{d|date:'shortTime'}}</h2>
+<h3>{{d|date:'mediumTime'}}</h3>
+<h2>{{d|date:'longTime'}}</h2>
